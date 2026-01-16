@@ -69,3 +69,26 @@ button {
   padding: 10px;
   border-radius: 15px;
 }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 100px); /* Create 7 columns */
+  gap: 10px;
+}
+
+.penguin {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 20px;
+}
